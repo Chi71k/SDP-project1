@@ -10,5 +10,4 @@ public abstract class Taxi {
     }
 
     public abstract void takePassenger(String passenger);
-
 }

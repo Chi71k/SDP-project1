@@ -9,5 +9,6 @@ public class Main {
         factory = new PremiumTaxiFactory();
         taxi = factory.createTaxi("Daniele", "XYZ12345");
         taxi.takePassenger("Yerassyl");
+
     }
 }

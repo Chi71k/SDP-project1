@@ -9,4 +9,5 @@ public class StandardTaxi extends Taxi {
     public void takePassenger(String passenger) {
         System.out.println("Just a regular ride for passenger " + passenger);
     }
+
 }
