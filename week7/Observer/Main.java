@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Order order = new Order();
 
-        Client client1 = new Client("Alice");
-        Client client2 = new Client("Bob");
+        Client client1 = new Client("Нургиса");
+        Client client2 = new Client("Дос");
 
         order.subscribe(client1);
         order.subscribe(client2);

@@ -4,7 +4,7 @@ class Order {
     private OrderState state;
 
     public Order() {
-        this.state = new CreatedState(); // Order starts in CreatedState
+        this.state = new CreatedState();
     }
 
     public void setState(OrderState state) {
